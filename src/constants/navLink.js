@@ -10,27 +10,32 @@ const navLinks = [
     {
         id:1,
         img:home,
-        title:'home'
+        title:'home',
+        link:''
     },
     {
         id:2,
         img:ambulance,
-        title:'ambulance'
+        title:'ambulance',
+        link:'ambulance'
     },
     {
         id:3,
         img:fireTrack,
-        title:'fireTrack'
+        title:'fireTrack',
+        link:'fire-track'
     },
     {
         id:4,
         img:airCraft,
-        title:'airCraft'
+        title:'airCraft',
+        link:'air-craft'
     },
     {
         id:5,
         img:fireFighting,
-        title:'fireFighting'
+        title:'fireFighting',
+        link:'employers'
     },
 ]
 

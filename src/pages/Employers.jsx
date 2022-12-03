@@ -25,7 +25,7 @@ const Employers = () => {
                 <div className='flex flex-col  gap-4  md:w-[70%] sm:w-[100%] m-auto' >
                 {employers.map((employer)=>{
                     return (
-                        <div className='w-full' >
+                        <div className='w-full' key={employer.id} >
                             <Employer employer={employer} />
                         </div>
                     

@@ -33,7 +33,7 @@ const PersonsWork = ({title}) => {
 
 
             </div>
-            <div className='lg:w-[45%] mt-10   px-0 lg:px-10 sticky top-0 h-screen' >
+            <div className='lg:w-[45%] mt-10   px-0 lg:px-10 ' >
                 <CardMap />
             </div>
         </div>

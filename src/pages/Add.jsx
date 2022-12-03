@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import Navbar from '../components/Navbar'
 import NavMobile from '../components/NavMobile'
 
@@ -18,7 +19,9 @@ const Add = () => {
                     <div className='flex flex-col gap-2'>
                         <h1>Add a vehicule</h1>
                         <p>Add an ambulance, a fire truck or an aircraft to the serie of vehicules</p>
-                        <button className='bg-[#9E55FE] text-white w-fit py-2 px-4' >Add</button>
+                        <Link to='/add/car'>
+                            <button className='bg-[#9E55FE] text-white w-fit py-2 px-4' >Add</button>
+                        </Link>
                     </div>
                     <img src={eurgence} alt="eurgenceImg" className='md:w-[10rem] lg:w-[15rem] h-[12rem]' />
                 </div>
@@ -27,7 +30,9 @@ const Add = () => {
                     <div className='flex flex-col gap-2'>
                         <h1>Add a employer</h1>
                         <p>Add an ambulance, a fire truck or an aircraft to the serie of employers</p>
+                        <Link to='/add/employe' >
                         <button className='bg-[#9E55FE] text-white w-fit py-2 px-4' >Add</button>
+                        </Link>
                     </div>
                     <img src={emp} alt="empImg" className='md:w-[10rem] lg:w-[15rem] h-[12rem]' />
                 </div>
