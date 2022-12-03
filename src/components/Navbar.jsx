@@ -18,10 +18,12 @@ const Navbar = () => {
                     </Link>
                 )
             })}
+            <Link to='/add'>
             <div className='absolute left-4 bottom-10 flex items-center gap-2 justify-center w-[80%] py-2 w-full bg-white rounded-[12px]' >
                 <img src={plus1} alt="plusImg"/>
                 <p className='text-gray font-bold' >Add </p>
             </div>
+            </Link>
 
         </div>
     </div>
